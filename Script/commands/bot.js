@@ -153,12 +153,12 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("না ঝাং 🥹 তুমি রান্না করে রাখো আমি এসে খাবো <😘", threadID);
    };
 
-   if ((event.body.toLowerCase() == "tumi ki amake bhalobaso") || (event.body.toLowerCase() == "tmi ki amake vlo basho")) {
+   if ((event.body.toLowerCase() == "tumi ki amake bhalobaso") || (event.body.toLowerCase() == "ভালোবাসি 🫶🙂")) {
      return api.sendMessage("হুম ঝাং আমি তোমাকে রাইতে ভলোপাসি🙂", threadID);
    };
 
    if ((event.body.toLowerCase() == "ami rahat") || (event.body.toLowerCase() == "kire")) {
-     return api.sendMessage("হ্যা বস কেমন আছেন..?☺️", threadID);
+     return api.sendMessage("হ্যা সজীব বস কেমন আছেন..?☺️", threadID);
    };
   mess = "{name}"
 
