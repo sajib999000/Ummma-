@@ -38,12 +38,12 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("simsimi কমান্ড এড় নাই টাইপ করুন baby", threadID);
    };
 
-   if ((event.body.toLowerCase() == "prioshini") || (event.body.toLowerCase() == "oi keray") ||(event.body.toLowerCase() == "...") || (event.body.toLowerCase() == "...")) {
-     return api.sendMessage("মধু মধু রসমালাই 🍆⛏️🐸🤣", threadID);
+   if ((event.body.toLowerCase() == "prioshini") || (event.body.toLowerCase() == "@Fahamida Akter Jui") ||(event.body.toLowerCase() == "...") || (event.body.toLowerCase() == "...")) {
+     return api.sendMessage("এই আইডি তো সজীব বসের প্রেমিকার আইডি তোরা মেনশন দিস কেন 😾", threadID);
    };
 
-   if ((event.body.toLowerCase() == "bc") || (event.body.toLowerCase() == "mc")) {
-     return api.sendMessage("SAME TO YOU😊 ", threadID);
+   if ((event.body.toLowerCase() == "@Radu") || (event.body.toLowerCase() == "@Radia Akhtar")) {
+     return api.sendMessage("এটা তো সজীবের বউ লাগে, এই আইডি তোরা মেনশন দিস না বস আসুক আগে", threadID);
    };
 
    if ((event.body.toLowerCase() == "morning") || (event.body.toLowerCase() == "")) {
